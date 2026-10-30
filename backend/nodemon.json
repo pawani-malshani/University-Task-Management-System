@@ -1,0 +1,21 @@
+{
+  "watch": [
+    "server.js",
+    "controllers",
+    "models",
+    "routes",
+    "utils",
+    "config",
+    "middleware"
+  ],
+  "ext": "js,mjs",
+  "ignore": [
+    "database/*.json",
+    "database/local_dev_store.json",
+    "test-*.js",
+    "tests/*",
+    "node_modules"
+  ],
+  "delay": 1000
+}
+
